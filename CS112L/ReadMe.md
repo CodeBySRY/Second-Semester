@@ -6,6 +6,7 @@
 ## 📁 Folder Overview
 
 This repository contains practical C++ code examples from the CS112L course, focused on core Object-Oriented Programming (OOP) concepts. Each topic is organized into its own subfolder for clarity and ease of use.
+**Navigation**: Go to the folder titled, 'OOP Related Topics', and within that, you will find folders divided according to topics, and within them, the codes.
 
 ---
 
@@ -17,8 +18,8 @@ This repository contains practical C++ code examples from the CS112L course, foc
 - ✅ **Type Casting**  
   Covers static, dynamic, and user-defined type conversions between classes and built-in types
 
-- 🔜 **Overridden Functions** *(to be added)*  
-  Will showcase method overriding and polymorphism in inheritance hierarchies
+- ✅ **Overridden Functions**  
+  Showcases method overriding and polymorphism in inheritance hierarchies [`Abstract Classes` and `Pure virtual functions`]
 
 ---
 
