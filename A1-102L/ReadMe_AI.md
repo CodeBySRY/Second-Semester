@@ -7,6 +7,8 @@
 
 This repository contains code and mini-projects related to core and advanced Python topics, as part of the AI102 Lab course at GIKI.
 
+**Navigation**: Go into the folder titled, 'Related Topics', to access all the codes. 
+
 ---
 
 ## 📌 Topics Covered
@@ -49,7 +51,9 @@ This repo was created by me to serve as:
 - A practical learning journal for Python programming
 - A reference base for core concepts and syntax
 
-Although the codes presented here are minimal and basic, I sincerely hope that this will help my juniors, who might be taking up such a course in the future.
+I sincerely hope that this repo will help my juniors, who might be taking up such a course in the future.
+
+I will be adding more codes and projects in this repo as time passes.
 
 ---
 
