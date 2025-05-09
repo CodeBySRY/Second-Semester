@@ -15,4 +15,5 @@ print(d1.head())
 # Preview data: check for the number of rows and columns in the data frame;
 print('Dataset has: \n', d1.shape[0], ' records\n', d1.shape[1], ' columns')
 
+# To check for the type of variable of each column;
 # print(d1.dtypes)
