@@ -46,4 +46,6 @@ lib.add_book(b4)
 lib.add_book(b5)
 lib.add_book(b6)
 
+# Calling the display method to display all the books;
+# The sixth book will not be displayed since the max. limit defined of the books is 5.
 lib.display_books()
