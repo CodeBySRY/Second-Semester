@@ -31,7 +31,7 @@ column_data = d1['Price']
 # Num. of samples (num_samples) = 1000
 
 num_samples = 1000
-sample_size = 10
+sample_size = 1000
 
 # TEST RUN:
 # Randomly draw a sample of size N = 10 from the Price column:
@@ -46,6 +46,8 @@ print("Sample Mean (x̄): ", sample_mean)
 # Calculate the population mean (μ);
 pop_mean = stat.mean(column_data)
 print("Population mean (μ): ", pop_mean)
+
+print("As the sample size increases; the sample mean (x̄) converges to the population mean (μ).\n")
 
 # Calculate the population standard deviation (σ);
 pop_stdev = stat.pstdev(column_data)
@@ -71,6 +73,6 @@ sns.histplot(z_vals, bins=30, kde = True, color='skyblue')
 
 plt.xlabel("Z-Value")
 plt.ylabel("Frequency")
-plt.title("Sampling Distribution of Z for N = 10")
+plt.title("Sampling Distribution of Z for N = 1000")
 plt.grid(True)
 plt.show()
