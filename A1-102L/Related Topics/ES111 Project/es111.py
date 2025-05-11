@@ -62,11 +62,6 @@ for i in range(num_samples):
     z_vals.append(compute_z)
 
 
-    
-   
-    
-    
-    
 # Create the plot
 
 plt.figure(figsize=(10, 6))
@@ -74,7 +69,7 @@ plt.figure(figsize=(10, 6))
 # Plot the histogram of property prices (scaled)
 sns.histplot(z_vals, bins=30, kde = True, color='skyblue')
 
-plt.xlabel("Sample Mean")
+plt.xlabel("Z-Value")
 plt.ylabel("Frequency")
 plt.title("Sampling Distribution of Z for N = 10")
 plt.grid(True)
