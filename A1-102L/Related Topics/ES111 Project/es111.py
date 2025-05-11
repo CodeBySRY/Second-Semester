@@ -4,6 +4,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import os
+import statistics as stat
 
 # Debug: Confirm files are together
 # print("Files in folder:", os.listdir())
@@ -29,32 +30,52 @@ column_data = d1['Price']
 # Sample size (sample_size) = 10
 # Num. of samples (num_samples) = 1000
 
+num_samples = 1000
 sample_size = 10
 
-# Trying...
+# TEST RUN:
 # Randomly draw a sample of size N = 10 from the Price column:
 print("Randomly drawn values: ")
 price_sample = np.random.choice(column_data, sample_size, replace = False)
 print(price_sample)
 
+# Compute the sample mean (x̄);
+sample_mean = stat.mean(price_sample)
+print("Sample Mean (x̄): ", sample_mean)
+
+# Calculate the population mean (μ);
+pop_mean = stat.mean(column_data)
+print("Population mean (μ): ", pop_mean)
+
+# Calculate the population standard deviation (σ);
+pop_stdev = stat.pstdev(column_data)
+print("Population Standard Deviation: ", pop_stdev)
+
+# The population mean and population standard deviation remain constant because they are calculated from the entire dataset.
+# Drawing different samples or changing the sample size does not affect these values—they are fixed characteristics of the population.
+
+z_vals = []
+for i in range(num_samples):
+    current_sample = np.random.choice(column_data, sample_size, replace = False)
+    samp_mean = stat.mean(current_sample)
+    compute_z = (samp_mean - pop_mean) / (pop_stdev / np.sqrt(sample_size))
+    z_vals.append(compute_z)
 
 
-
-
-
-price_upper_limit = d1['Price'].quantile(0.50)
-filtered_data = d1[d1['Price'] <= price_upper_limit]
-
+    
+   
+    
+    
+    
 # Create the plot
-"""
+
 plt.figure(figsize=(10, 6))
 
 # Plot the histogram of property prices (scaled)
-sns.distplot(filtered_data['Price'], bins=30, color='skyblue')
+sns.histplot(z_vals, bins=30, kde = True, color='skyblue')
 
 plt.xlabel("Sample Mean")
 plt.ylabel("Frequency")
-plt.title("Sampling Distribution")
+plt.title("Sampling Distribution of Z for N = 10")
 plt.grid(True)
 plt.show()
-"""
