@@ -10,6 +10,7 @@ import statistics as stat
 # print("Files in folder:", os.listdir())
 
 
+
 # Load the CSV (same directory)
 d1 = pd.read_csv(r"D:\2ND SEMESTER\Second-Semester\A1-102L\Related Topics\ES111 Project\IndianHousePrices.csv")
 # print(d1.head())
@@ -26,12 +27,13 @@ d1 = pd.read_csv(r"D:\2ND SEMESTER\Second-Semester\A1-102L\Related Topics\ES111 
 column_data = d1['Price']
 # print(column_data)
 
+
 # Now that the 'Price' column has been extracted, we randomly draw a sample of size n = 10, from the price column;
 # Sample size (sample_size) = 10
 # Num. of samples (num_samples) = 1000
 
 num_samples = 1000
-sample_size = 1000
+sample_size = 10
 
 # TEST RUN:
 # Randomly draw a sample of size N = 10 from the Price column:
@@ -73,6 +75,6 @@ sns.histplot(z_vals, bins=30, kde = True, color='skyblue')
 
 plt.xlabel("Z-Value")
 plt.ylabel("Frequency")
-plt.title("Sampling Distribution of Z for N = 1000")
+plt.title("Sampling Distribution of Z for N = 10")
 plt.grid(True)
 plt.show()

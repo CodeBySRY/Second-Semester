@@ -4,7 +4,7 @@ class Book:
         self.ISBN = ISBN
         self.status = status
         self.title = title
-    
+     
     def getBook(self): # it is important to add self as the parameter when defining methods within a class;
         print(f"Title: {self.title}\nAuthor: {self.author}\nStatus: {self.status}\nISBN: {self.ISBN}") 
         
