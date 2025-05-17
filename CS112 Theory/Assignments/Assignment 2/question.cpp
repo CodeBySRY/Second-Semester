@@ -181,6 +181,8 @@ float BasePlusCommissionEmployee::earnings() const {
 
 int main() {
 
+    cout << "\t\t\tRuntime Polymorphism using Virtual Functions in C++ (with Inheritance)" << endl;
+
     // Declaring an array of base class pointers;
     Employee *emps[4];
     emps[0] = new SalariedEmployee("Nauman", "Sarwar", 800.00);
