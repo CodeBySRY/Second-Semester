@@ -6,8 +6,6 @@ using namespace std;
 //  The virtual reserved word must be used in the base class.
 
 
-
-
 void init_matrix(int arr[3][3]) {
 	int val = 0;
 	for (int i = 0; i < 3; i++) {
@@ -34,10 +32,9 @@ int main () {
 	
 	init_matrix(p);
 	cout << endl;
+    cout << "Output Matrix: " << endl;
 	output_matrix(p);
 	
-	
-	cout << "PROGRAM END!" << endl;
 	
 	
 	return 0;
