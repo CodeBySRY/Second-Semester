@@ -19,6 +19,9 @@
 // - BaseCommissionWorker (derived from CommissionWorker)
 
 
+// It is good practice to declare all the 'getter' functions as const;
+
+
 
 
 using namespace std;
