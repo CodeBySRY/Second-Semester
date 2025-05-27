@@ -36,7 +36,7 @@ The **Central Limit Theorem** states that if you take sufficiently large random 
    - Compute and compare the sample mean ( x̄ ) with the population mean ( μ ).
 
 3. **Population Metrics**  
-   - Compute population mean \( \mu \) and population standard deviation \( \sigma \).
+   - Compute population mean and population standard deviation.
 
 4. **Simulation**  
    - Draw 1000 random samples of size 10.
@@ -51,13 +51,28 @@ The **Central Limit Theorem** states that if you take sufficiently large random 
 
 ---
 
-## 📈 Output Explanation
+## 📚 Observations
+Q1. **What do you observe about the spread and shape of the z-value distribution as N increases?**
 
-The histogram plot illustrates that even with a sample size of only 10 and 1000 iterations:
-- The distribution of the sample means becomes approximately normal.
-- The center of the histogram aligns closely with 0 (i.e., no bias in sampling).
+As sample size N increases (from 10 to 1000), the spread (standard deviation) of the sampling distribution decreases.
+The shape becomes more sharply peaked and closely resembles a normal distribution.
+For small N, the histogram is wider and more variable (more spread out); for large N, it is narrower and more concentrated around 0.
 
-This validates the Central Limit Theorem.
+Q2. **How does this confirm what the Central Limit Theorem predicts?**
+
+The CLT states that as the sample size increases, the sampling distribution of the sample mean approaches a normal distribution, regardless of the shape of the population distribution. 
+My observation (narrower, more normal-shaped histogram for N=1000) confirms this.
+
+---
+
+## 🗂 Resources:
+
+- “The Central Limit Theorem – With Examples In Python” Youtube, uploaded by Jon Krohn, 16th March, 2020,
+https://www.youtube.com/watch?v=1p8pBje5SOE
+
+- Python – Central Limit Theorem
+GeeksforGeeks
+https://www.geeksforgeeks.org/python-central-limit-theorem/
 
 ---
 
@@ -68,3 +83,5 @@ This validates the Central Limit Theorem.
 ├── IndianHousePrices.csv
 ├── es111.py  ← Main Python script
 └── ReadMe.md           ← Project documentation
+```
+---
