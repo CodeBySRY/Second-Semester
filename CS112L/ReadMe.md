@@ -7,7 +7,8 @@
 
 This repository contains practical C++ code examples from the CS112L course, focused on core Object-Oriented Programming (OOP) concepts. Each topic is organized into its own subfolder for clarity and ease of use.
 **Navigation**: Go to the folder titled, 'OOP Related Topics', and within that, you will find folders divided according to topics, and within them, the codes.
-
+> [!NOTE]
+> There are cpp files, of codes that I wrote as practice. Do go through them as well.
 ---
 
 ## 📌 Topics Covered
