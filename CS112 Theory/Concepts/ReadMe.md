@@ -1,4 +1,4 @@
-### Related to `sort_Students.cpp`
+### Related to `sort_students.cpp`
 It is a C++ program to manage and sort student data using **custom comparators** and **std::sort**.
 
 > In C++, before calling a method on a pointer, you must ensure that the pointer points to a valid object.  

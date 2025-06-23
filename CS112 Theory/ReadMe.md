@@ -21,5 +21,8 @@ Each assignment folder contains:
 
 ✅ *Using a Markdown README for questions allows formatting, inline code, and easier updates, making it more readable than a static PDF.*
 
-### 🔹 Concept Practice
+### 🔹 Concepts
 There is a dedicated `Concepts/` folder that contains in-depth practice for difficult topics.
+
+### 🔹 Prep Folder
+A dedicated `Prep` folder that contains all the codes that I wrote as part of some sort of exam. I thought it would be best to combine all of them into a single folder (for organization purposes).
