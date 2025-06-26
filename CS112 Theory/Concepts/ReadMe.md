@@ -33,3 +33,5 @@ sort(s, s + user, sort_by_name);
 // s       = pointer to first element
 // s+user  = pointer to one past last element
 ```
+---
+### STL: Vectors
