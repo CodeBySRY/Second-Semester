@@ -1,4 +1,4 @@
-# 📘 CS112 – C++ Theory Repository  
+# 📘 CS112 – **C++** Theory Repository  
 *Core Theory Assignments, Concept Practice, and Code Solutions*
 
 ---
