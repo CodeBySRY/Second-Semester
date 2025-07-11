@@ -2,6 +2,7 @@
 OOP is a crucial topic that is often the center of discussion in technical interviews at tech companies, being one of the core CS concepts.
 
 ---
+
 **Base classes** are the building blocks of class hierarchies. A base class: 
 - Has a destructor that is public and virtual or else protected and nonvirtual, and a nonpublic copy constructor and assignment operator. 
 - Establishes interfaces through virtual functions. 
@@ -175,6 +176,10 @@ int main() {
 ```
 > [!NOTE]
 > The delete functions that are used in the base class (`Employee(const Employee&) = delete;` and `Employee& operator=(const Employee&) = delete;`) are there to preserve polymorphic behavior, as it forces you to use pointers/references. It is simply a defensive programming practice that prevents a whole class of subtle bugs.
+
+Just an extra knowledge:  
+> Classes and structs are the same in C++, except for two differences: [1] The default privilege in a **class** is private, whereas, the default privilege in a **struct** is public. [2] The default inheritance mode in a **class** is private, and the default inheritance mode in a **struct** is public.
+ 
 
 
 

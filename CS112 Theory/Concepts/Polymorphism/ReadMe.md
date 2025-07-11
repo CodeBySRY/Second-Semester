@@ -1,0 +1,2 @@
+In object-oriented programming (OOP), **polymorphism** is a powerful concept that allows objects of different classes to be treated as objects of a common superclass. When combined with **heap memory allocation**, polymorphism enables dynamic, flexible, and memory-efficient program design.  
+A code example to demonstrate this is given in the file labelled `polymorphism_with_heap.cpp`.
