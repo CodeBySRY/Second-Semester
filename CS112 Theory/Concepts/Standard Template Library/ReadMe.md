@@ -1,4 +1,8 @@
 ## Standard Template Library (STL)
+The standard template library provides us with alot of custom-built functions, that are contained within the `<algorithm>` library. This makes it pretty powerful, since we do not need to reinvent the wheel (i.e. make our own logic for certain problems).
+
+---
+
 When we previously worked with _arrays_, if we needed to dynamically resize it, we would need to apply dynamic memory allocation, and the code would like something the following:  
 ```cpp
 #include <iostream>
