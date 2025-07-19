@@ -23,6 +23,8 @@ class Student {
         Student(string s, int m);
 };
 
+bool CheckMarks(int marks);
+
  // Whenever two objects will be compared, they will be compared on the basis on the marks.
 bool operator<(const Student& a, const Student& b) {
     return a.getMarks() < b.getMarks();
@@ -48,6 +50,11 @@ void Student::AddStudent(vector<Student>& s1) {
         cout << "Enter the marks: ";
         cin >> marks;
         cin.ignore();
+        while (!CheckMarks(marks)) {
+            cout << "Enter valid marks (0-100): ";
+            cin >> marks;
+            cin.ignore();
+        }
         Student newStu(name, marks);
         s1.push_back(newStu);
     }
@@ -75,6 +82,16 @@ void MinMaxMarks(vector<Student>&s1) {
     auto output = minmax_element(s1.begin(), s1.end());
     cout << "Highest Score: " << *output.second << endl;
     cout << "Lowest Score: " << *output.first << endl;
+}
+
+bool CheckMarks(int marks) {
+    bool valid = true;
+    if (marks < 0 || marks > 100) {
+        cout << "Invalid Input! Please try again! ";
+        valid = false;
+    }
+
+    return valid;
 }
 
 
