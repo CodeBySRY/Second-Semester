@@ -3,6 +3,11 @@
 
 ---
 
+### Related to `image_to_pdf.py`:
+It basically automates a task I couldn't find existing software for. The python script converts images into a single PDF file, AND, stores them in the same file. Check it out!
+
+---
+
 ## 📁 Folder Overview
 
 This repository contains code and mini-projects related to core and advanced Python topics, as part of the AI102 Lab course at GIKI.
