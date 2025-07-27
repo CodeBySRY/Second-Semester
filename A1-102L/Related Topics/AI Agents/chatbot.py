@@ -1,8 +1,8 @@
 from crewai import Agent, Task, Crew
 from langchain_openai import ChatOpenAI
 
-import os
-os.environ['OPENAI_API_KEY'] = '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'
+# import os
+# os.environ['OPENAI_API_KEY'] = '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'
 
 llm = ChatOpenAI(model='gpt-4o-mini')
 
