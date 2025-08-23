@@ -1,4 +1,21 @@
 # Second Semester
+## 📚 Academic Courses
+
+| Course Code | Course Name | Credit Hours | Lab Course |
+| :---------- | :---------- | :----------- | :--------- |
+| CS112       | Object Oriented Programming and Design | 2 | ✅ |
+| ES111       | Probability and Statistics | 3 | |
+| HM102       | Critical Thinking and Expository Writing | 2 | ✅ |
+| MM101       | Materials and Nanotechnology | 2 | ✅ |
+| MT102       | Differential Equations and Linear Algebra I | 3 | |
+| IF102L      | Innovation and Makers Lab II | 1 | ✅ |
+
+- Each lab course is **1 credit hour**.
+---
+
+
+> [!IMPORTANT]
+> If you miss a single Innovation and Makers Lab (`IF102L`), your grade can drop drastically. The performance averages in these labs are extremely high, so it is crucial to take them seriously from the very beginning.
 
 ---
 ## 🧩 Miscellaneous
