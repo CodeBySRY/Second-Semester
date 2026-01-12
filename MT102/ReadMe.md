@@ -24,6 +24,10 @@ Here’s a resource I highly recommend:
 🔗 [https://www.integral-calculator.com](https://www.integral-calculator.com)  
 A brilliant tool that not only solves integrals but also explains **step-by-step methods**. It’s incredibly helpful when you're stuck or want to verify your answer.
 
+Other than that, also check out **Professor Leonard's** playlist of **Differential Equations**:  
+🔗 [https://www.youtube.com/watch?v=xf-3ATzFyKA&list=PLDesaqWTN6ESPaHy2QUKVaXNZuQNxkYQ_]
+
+
 ---
 
 ## ✍️ Tips for Success
